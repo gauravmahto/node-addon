@@ -1,0 +1,33 @@
+{
+  "name": "node-addon",
+  "version": "1.0.0",
+  "description": "Node.js addon",
+  "main": "bin/src/app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravmahto/node-addon"
+  },
+  "author": "Gaurav Mahto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravmahto/node-addon/issues"
+  },
+  "homepage": "https://github.com/gauravmahto/node-addon#readme",
+  "dependencies": {
+    "app-module-path": "2.2.0",
+    "moment": "2.24.0",
+    "winston": "2.4.1",
+    "winston-daily-rotate-file": "3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.3",
+    "@types/winston": "2.3.8",
+    "node-gyp": "6.0.1",
+    "tslint": "5.20.0",
+    "typescript": "3.6.4"
+  }
+}
