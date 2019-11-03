@@ -1,9 +1,16 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Win64",
             "includePath": [
-                "${workspaceFolder}/src/addon/**"
+                "${workspaceFolder}/src/addon/**",
+                "C:\\Users\\gaura\\AppData\\Local\\node-gyp\\Cache\\12.13.0\\include\\node",
+                "C:\\Users\\gaura\\AppData\\Local\\node-gyp\\Cache\\12.13.0\\src",
+                "C:\\Users\\gaura\\AppData\\Local\\node-gyp\\Cache\\12.13.0\\deps\\openssl\\config",
+                "C:\\Users\\gaura\\AppData\\Local\\node-gyp\\Cache\\12.13.0\\deps\\openssl\\openssl\\include",
+                "C:\\Users\\gaura\\AppData\\Local\\node-gyp\\Cache\\12.13.0\\deps\\uv\\include",
+                "C:\\Users\\gaura\\AppData\\Local\\node-gyp\\Cache\\12.13.0\\deps\\zlib",
+                "C:\\Users\\gaura\\AppData\\Local\\node-gyp\\Cache\\12.13.0\\deps\\v8\\include"
             ],
             "defines": [
                 "_DEBUG",
