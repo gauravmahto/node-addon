@@ -19,7 +19,7 @@
   "homepage": "https://github.com/gauravmahto/node-addon#readme",
   "dependencies": {
     "app-module-path": "2.2.0",
-    "moment": "2.24.0",
+    "moment": "2.29.2",
     "winston": "2.4.1",
     "winston-daily-rotate-file": "3.0.0"
   },
